@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YYZcViewController.h
 //  YYFFApp
 //
 //  Created by 余跃 on 16/5/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YYZcViewController : UIViewController
 
 @end
-

@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B041A90B1CE9CD120033708C /* YYShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A9091CE9CD120033708C /* YYShowViewController.m */; };
+		B041A90C1CE9CD120033708C /* YYShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B041A90A1CE9CD120033708C /* YYShowViewController.xib */; };
+		B041A9461CEB146C0033708C /* searchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B041A9451CEB146C0033708C /* searchModel.m */; };
+		B0915FCB1CE8CA9000530B12 /* YYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B0915FCA1CE8CA9000530B12 /* YYUser.m */; };
+		B0915FCF1CE8E76000530B12 /* YYAlterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0915FCD1CE8E76000530B12 /* YYAlterViewController.m */; };
+		B0915FD01CE8E76000530B12 /* YYAlterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0915FCE1CE8E76000530B12 /* YYAlterViewController.xib */; };
+		B09D96911CEDB4EC00ADA4BE /* YYCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D968F1CEDB4EC00ADA4BE /* YYCommentViewController.m */; };
+		B09D96921CEDB4EC00ADA4BE /* YYCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D96901CEDB4EC00ADA4BE /* YYCommentViewController.xib */; };
+		B09D96961CEDBF1500ADA4BE /* YYShowCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D96941CEDBF1500ADA4BE /* YYShowCommentViewController.m */; };
+		B09D96971CEDBF1500ADA4BE /* YYShowCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D96951CEDBF1500ADA4BE /* YYShowCommentViewController.xib */; };
+		B09D969B1CEE021100ADA4BE /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D96991CEE021100ADA4BE /* SearchCell.m */; };
+		B09D969C1CEE021100ADA4BE /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D969A1CEE021100ADA4BE /* SearchCell.xib */; };
+		B09D96A01CEE08C700ADA4BE /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D969E1CEE08C700ADA4BE /* CommentCell.m */; };
+		B09D96A11CEE08C700ADA4BE /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D969F1CEE08C700ADA4BE /* CommentCell.xib */; };
+		B09D96A41CEEEE3000ADA4BE /* YYcomment.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D96A31CEEEE3000ADA4BE /* YYcomment.m */; };
+		B09D96A81CEF063C00ADA4BE /* YYSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D96A61CEF063C00ADA4BE /* YYSearchResultController.m */; };
+		B09D96A91CEF063C00ADA4BE /* YYSearchResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09D96A71CEF063C00ADA4BE /* YYSearchResultController.xib */; };
+		B09D96AC1CEF099600ADA4BE /* TGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B09D96AB1CEF099600ADA4BE /* TGModel.m */; };
 		B0B395FE1CDD0613003C6A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B395FD1CDD0613003C6A07 /* main.m */; };
 		B0B396011CDD0613003C6A07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396001CDD0613003C6A07 /* AppDelegate.m */; };
-		B0B396041CDD0613003C6A07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396031CDD0613003C6A07 /* ViewController.m */; };
 		B0B396071CDD0613003C6A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B396051CDD0613003C6A07 /* Main.storyboard */; };
 		B0B396091CDD0613003C6A07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B396081CDD0613003C6A07 /* Images.xcassets */; };
 		B0B3960C1CDD0613003C6A07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B3960A1CDD0613003C6A07 /* LaunchScreen.xib */; };
 		B0B396181CDD0613003C6A07 /* YYFFAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396171CDD0613003C6A07 /* YYFFAppTests.m */; };
+		B0B396241CDD0945003C6A07 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396221CDD0945003C6A07 /* loginViewController.m */; };
+		B0B396251CDD0945003C6A07 /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B396231CDD0945003C6A07 /* loginViewController.xib */; };
+		B0B396291CDD112D003C6A07 /* YYZcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396271CDD112D003C6A07 /* YYZcViewController.m */; };
+		B0B3962A1CDD112D003C6A07 /* YYZcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B396281CDD112D003C6A07 /* YYZcViewController.xib */; };
+		B0B396311CDE4DFE003C6A07 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B3962D1CDE4DFE003C6A07 /* MBProgressHUD+MJ.m */; };
+		B0B396321CDE4DFE003C6A07 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0B3962E1CDE4DFE003C6A07 /* MBProgressHUD.bundle */; };
+		B0B396331CDE4DFE003C6A07 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396301CDE4DFE003C6A07 /* MBProgressHUD.m */; };
+		B0B396371CDF5E8A003C6A07 /* YYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396351CDF5E8A003C6A07 /* YYMainViewController.m */; };
+		B0B396381CDF5E8A003C6A07 /* YYMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B396361CDF5E8A003C6A07 /* YYMainViewController.xib */; };
+		B0B3967A1CE0D578003C6A07 /* YYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B396781CE0D578003C6A07 /* YYSearchViewController.m */; };
+		B0B3967B1CE0D578003C6A07 /* YYSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B396791CE0D578003C6A07 /* YYSearchViewController.xib */; };
+		B0B3967F1CE0DCA4003C6A07 /* YYUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B3967D1CE0DCA4003C6A07 /* YYUsersViewController.m */; };
+		B0B396801CE0DCA4003C6A07 /* YYUsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0B3967E1CE0DCA4003C6A07 /* YYUsersViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +57,66 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B041A9081CE9CD120033708C /* YYShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShowViewController.h; sourceTree = "<group>"; };
+		B041A9091CE9CD120033708C /* YYShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShowViewController.m; sourceTree = "<group>"; };
+		B041A90A1CE9CD120033708C /* YYShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYShowViewController.xib; sourceTree = "<group>"; };
+		B041A9441CEB146C0033708C /* searchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchModel.h; sourceTree = "<group>"; };
+		B041A9451CEB146C0033708C /* searchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchModel.m; sourceTree = "<group>"; };
+		B0915FC91CE8CA9000530B12 /* YYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUser.h; sourceTree = "<group>"; };
+		B0915FCA1CE8CA9000530B12 /* YYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUser.m; sourceTree = "<group>"; };
+		B0915FCC1CE8E76000530B12 /* YYAlterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAlterViewController.h; sourceTree = "<group>"; };
+		B0915FCD1CE8E76000530B12 /* YYAlterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAlterViewController.m; sourceTree = "<group>"; };
+		B0915FCE1CE8E76000530B12 /* YYAlterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYAlterViewController.xib; sourceTree = "<group>"; };
+		B09D968E1CEDB4EC00ADA4BE /* YYCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCommentViewController.h; sourceTree = "<group>"; };
+		B09D968F1CEDB4EC00ADA4BE /* YYCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCommentViewController.m; sourceTree = "<group>"; };
+		B09D96901CEDB4EC00ADA4BE /* YYCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCommentViewController.xib; sourceTree = "<group>"; };
+		B09D96931CEDBF1500ADA4BE /* YYShowCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShowCommentViewController.h; sourceTree = "<group>"; };
+		B09D96941CEDBF1500ADA4BE /* YYShowCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShowCommentViewController.m; sourceTree = "<group>"; };
+		B09D96951CEDBF1500ADA4BE /* YYShowCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYShowCommentViewController.xib; sourceTree = "<group>"; };
+		B09D96981CEE021100ADA4BE /* SearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCell.h; sourceTree = "<group>"; };
+		B09D96991CEE021100ADA4BE /* SearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCell.m; sourceTree = "<group>"; };
+		B09D969A1CEE021100ADA4BE /* SearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
+		B09D969D1CEE08C700ADA4BE /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		B09D969E1CEE08C700ADA4BE /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		B09D969F1CEE08C700ADA4BE /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		B09D96A21CEEEE3000ADA4BE /* YYcomment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYcomment.h; sourceTree = "<group>"; };
+		B09D96A31CEEEE3000ADA4BE /* YYcomment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYcomment.m; sourceTree = "<group>"; };
+		B09D96A51CEF063C00ADA4BE /* YYSearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYSearchResultController.h; path = ../YYSearchResultController.h; sourceTree = "<group>"; };
+		B09D96A61CEF063C00ADA4BE /* YYSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YYSearchResultController.m; path = ../YYSearchResultController.m; sourceTree = "<group>"; };
+		B09D96A71CEF063C00ADA4BE /* YYSearchResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YYSearchResultController.xib; path = ../YYSearchResultController.xib; sourceTree = "<group>"; };
+		B09D96AA1CEF099600ADA4BE /* TGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGModel.h; sourceTree = "<group>"; };
+		B09D96AB1CEF099600ADA4BE /* TGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModel.m; sourceTree = "<group>"; };
 		B0B395F81CDD0613003C6A07 /* YYFFApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYFFApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B395FC1CDD0613003C6A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B395FD1CDD0613003C6A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0B395FF1CDD0613003C6A07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0B396001CDD0613003C6A07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0B396021CDD0613003C6A07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0B396031CDD0613003C6A07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0B396061CDD0613003C6A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B396081CDD0613003C6A07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B0B3960B1CDD0613003C6A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0B396111CDD0613003C6A07 /* YYFFAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYFFAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B396161CDD0613003C6A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B396171CDD0613003C6A07 /* YYFFAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFFAppTests.m; sourceTree = "<group>"; };
+		B0B396211CDD0945003C6A07 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		B0B396221CDD0945003C6A07 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		B0B396231CDD0945003C6A07 /* loginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginViewController.xib; sourceTree = "<group>"; };
+		B0B396261CDD112D003C6A07 /* YYZcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYZcViewController.h; sourceTree = "<group>"; };
+		B0B396271CDD112D003C6A07 /* YYZcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYZcViewController.m; sourceTree = "<group>"; };
+		B0B396281CDD112D003C6A07 /* YYZcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYZcViewController.xib; sourceTree = "<group>"; };
+		B0B3962C1CDE4DFE003C6A07 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		B0B3962D1CDE4DFE003C6A07 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		B0B3962E1CDE4DFE003C6A07 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		B0B3962F1CDE4DFE003C6A07 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B0B396301CDE4DFE003C6A07 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B0B396341CDF5E8A003C6A07 /* YYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMainViewController.h; sourceTree = "<group>"; };
+		B0B396351CDF5E8A003C6A07 /* YYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMainViewController.m; sourceTree = "<group>"; };
+		B0B396361CDF5E8A003C6A07 /* YYMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYMainViewController.xib; sourceTree = "<group>"; };
+		B0B396771CE0D578003C6A07 /* YYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYSearchViewController.h; path = "MBProgressHUD副本/YYSearchViewController.h"; sourceTree = "<group>"; };
+		B0B396781CE0D578003C6A07 /* YYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YYSearchViewController.m; path = "MBProgressHUD副本/YYSearchViewController.m"; sourceTree = "<group>"; };
+		B0B396791CE0D578003C6A07 /* YYSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YYSearchViewController.xib; path = "MBProgressHUD副本/YYSearchViewController.xib"; sourceTree = "<group>"; };
+		B0B3967C1CE0DCA4003C6A07 /* YYUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUsersViewController.h; sourceTree = "<group>"; };
+		B0B3967D1CE0DCA4003C6A07 /* YYUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUsersViewController.m; sourceTree = "<group>"; };
+		B0B3967E1CE0DCA4003C6A07 /* YYUsersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYUsersViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +158,57 @@
 		B0B395FA1CDD0613003C6A07 /* YYFFApp */ = {
 			isa = PBXGroup;
 			children = (
+				B0B3962B1CDE4DFE003C6A07 /* MBProgressHUD副本 */,
 				B0B395FF1CDD0613003C6A07 /* AppDelegate.h */,
 				B0B396001CDD0613003C6A07 /* AppDelegate.m */,
-				B0B396021CDD0613003C6A07 /* ViewController.h */,
-				B0B396031CDD0613003C6A07 /* ViewController.m */,
 				B0B396051CDD0613003C6A07 /* Main.storyboard */,
+				B0B396771CE0D578003C6A07 /* YYSearchViewController.h */,
+				B0B396781CE0D578003C6A07 /* YYSearchViewController.m */,
+				B0B396791CE0D578003C6A07 /* YYSearchViewController.xib */,
+				B09D96A51CEF063C00ADA4BE /* YYSearchResultController.h */,
+				B09D96A61CEF063C00ADA4BE /* YYSearchResultController.m */,
+				B09D96A71CEF063C00ADA4BE /* YYSearchResultController.xib */,
+				B0B396211CDD0945003C6A07 /* loginViewController.h */,
+				B0B396221CDD0945003C6A07 /* loginViewController.m */,
+				B0B396231CDD0945003C6A07 /* loginViewController.xib */,
+				B0B396261CDD112D003C6A07 /* YYZcViewController.h */,
+				B0B396271CDD112D003C6A07 /* YYZcViewController.m */,
+				B0B396281CDD112D003C6A07 /* YYZcViewController.xib */,
+				B0915FCC1CE8E76000530B12 /* YYAlterViewController.h */,
+				B0915FCD1CE8E76000530B12 /* YYAlterViewController.m */,
+				B0915FCE1CE8E76000530B12 /* YYAlterViewController.xib */,
 				B0B396081CDD0613003C6A07 /* Images.xcassets */,
 				B0B3960A1CDD0613003C6A07 /* LaunchScreen.xib */,
 				B0B395FB1CDD0613003C6A07 /* Supporting Files */,
+				B0B3967C1CE0DCA4003C6A07 /* YYUsersViewController.h */,
+				B0B3967D1CE0DCA4003C6A07 /* YYUsersViewController.m */,
+				B0B3967E1CE0DCA4003C6A07 /* YYUsersViewController.xib */,
+				B0B396341CDF5E8A003C6A07 /* YYMainViewController.h */,
+				B0B396351CDF5E8A003C6A07 /* YYMainViewController.m */,
+				B0B396361CDF5E8A003C6A07 /* YYMainViewController.xib */,
+				B041A9081CE9CD120033708C /* YYShowViewController.h */,
+				B041A9091CE9CD120033708C /* YYShowViewController.m */,
+				B041A90A1CE9CD120033708C /* YYShowViewController.xib */,
+				B0915FC91CE8CA9000530B12 /* YYUser.h */,
+				B0915FCA1CE8CA9000530B12 /* YYUser.m */,
+				B041A9441CEB146C0033708C /* searchModel.h */,
+				B041A9451CEB146C0033708C /* searchModel.m */,
+				B09D96AA1CEF099600ADA4BE /* TGModel.h */,
+				B09D96AB1CEF099600ADA4BE /* TGModel.m */,
+				B09D96A21CEEEE3000ADA4BE /* YYcomment.h */,
+				B09D96A31CEEEE3000ADA4BE /* YYcomment.m */,
+				B09D968E1CEDB4EC00ADA4BE /* YYCommentViewController.h */,
+				B09D968F1CEDB4EC00ADA4BE /* YYCommentViewController.m */,
+				B09D96901CEDB4EC00ADA4BE /* YYCommentViewController.xib */,
+				B09D96931CEDBF1500ADA4BE /* YYShowCommentViewController.h */,
+				B09D96941CEDBF1500ADA4BE /* YYShowCommentViewController.m */,
+				B09D96951CEDBF1500ADA4BE /* YYShowCommentViewController.xib */,
+				B09D96981CEE021100ADA4BE /* SearchCell.h */,
+				B09D96991CEE021100ADA4BE /* SearchCell.m */,
+				B09D969A1CEE021100ADA4BE /* SearchCell.xib */,
+				B09D969D1CEE08C700ADA4BE /* CommentCell.h */,
+				B09D969E1CEE08C700ADA4BE /* CommentCell.m */,
+				B09D969F1CEE08C700ADA4BE /* CommentCell.xib */,
 			);
 			path = YYFFApp;
 			sourceTree = "<group>";
@@ -117,6 +237,18 @@
 				B0B396161CDD0613003C6A07 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0B3962B1CDE4DFE003C6A07 /* MBProgressHUD副本 */ = {
+			isa = PBXGroup;
+			children = (
+				B0B3962C1CDE4DFE003C6A07 /* MBProgressHUD+MJ.h */,
+				B0B3962D1CDE4DFE003C6A07 /* MBProgressHUD+MJ.m */,
+				B0B3962E1CDE4DFE003C6A07 /* MBProgressHUD.bundle */,
+				B0B3962F1CDE4DFE003C6A07 /* MBProgressHUD.h */,
+				B0B396301CDE4DFE003C6A07 /* MBProgressHUD.m */,
+			);
+			path = "MBProgressHUD副本";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +331,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09D969C1CEE021100ADA4BE /* SearchCell.xib in Resources */,
+				B0B396251CDD0945003C6A07 /* loginViewController.xib in Resources */,
+				B09D96971CEDBF1500ADA4BE /* YYShowCommentViewController.xib in Resources */,
+				B09D96A11CEE08C700ADA4BE /* CommentCell.xib in Resources */,
+				B09D96A91CEF063C00ADA4BE /* YYSearchResultController.xib in Resources */,
+				B0915FD01CE8E76000530B12 /* YYAlterViewController.xib in Resources */,
+				B0B3967B1CE0D578003C6A07 /* YYSearchViewController.xib in Resources */,
+				B0B3962A1CDD112D003C6A07 /* YYZcViewController.xib in Resources */,
+				B09D96921CEDB4EC00ADA4BE /* YYCommentViewController.xib in Resources */,
 				B0B396071CDD0613003C6A07 /* Main.storyboard in Resources */,
+				B0B396801CE0DCA4003C6A07 /* YYUsersViewController.xib in Resources */,
+				B041A90C1CE9CD120033708C /* YYShowViewController.xib in Resources */,
 				B0B3960C1CDD0613003C6A07 /* LaunchScreen.xib in Resources */,
 				B0B396091CDD0613003C6A07 /* Images.xcassets in Resources */,
+				B0B396321CDE4DFE003C6A07 /* MBProgressHUD.bundle in Resources */,
+				B0B396381CDF5E8A003C6A07 /* YYMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +364,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B396041CDD0613003C6A07 /* ViewController.m in Sources */,
+				B041A90B1CE9CD120033708C /* YYShowViewController.m in Sources */,
+				B09D96A01CEE08C700ADA4BE /* CommentCell.m in Sources */,
+				B0B396311CDE4DFE003C6A07 /* MBProgressHUD+MJ.m in Sources */,
+				B0B3967A1CE0D578003C6A07 /* YYSearchViewController.m in Sources */,
+				B09D96AC1CEF099600ADA4BE /* TGModel.m in Sources */,
+				B09D96A41CEEEE3000ADA4BE /* YYcomment.m in Sources */,
+				B09D969B1CEE021100ADA4BE /* SearchCell.m in Sources */,
+				B0915FCF1CE8E76000530B12 /* YYAlterViewController.m in Sources */,
+				B0915FCB1CE8CA9000530B12 /* YYUser.m in Sources */,
+				B0B3967F1CE0DCA4003C6A07 /* YYUsersViewController.m in Sources */,
+				B0B396241CDD0945003C6A07 /* loginViewController.m in Sources */,
 				B0B396011CDD0613003C6A07 /* AppDelegate.m in Sources */,
+				B09D96911CEDB4EC00ADA4BE /* YYCommentViewController.m in Sources */,
+				B041A9461CEB146C0033708C /* searchModel.m in Sources */,
+				B0B396291CDD112D003C6A07 /* YYZcViewController.m in Sources */,
+				B0B396371CDF5E8A003C6A07 /* YYMainViewController.m in Sources */,
+				B09D96A81CEF063C00ADA4BE /* YYSearchResultController.m in Sources */,
+				B09D96961CEDBF1500ADA4BE /* YYShowCommentViewController.m in Sources */,
 				B0B395FE1CDD0613003C6A07 /* main.m in Sources */,
+				B0B396331CDE4DFE003C6A07 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +509,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YYFFApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +521,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YYFFApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +582,7 @@
 				B0B3961D1CDD0613003C6A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0B3961E1CDD0613003C6A07 /* Build configuration list for PBXNativeTarget "YYFFAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +591,7 @@
 				B0B396201CDD0613003C6A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

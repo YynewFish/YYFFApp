@@ -7,16 +7,53 @@
 //
 
 #import "AppDelegate.h"
-
+#import "loginViewController.h"
+#import "YYMainViewController.h"
+#import "YYSearchViewController.h"
+#import "YYUsersViewController.h"
+#import "searchModel.h"
+#import "TGModel.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+//+(int)yyGetusersId{
+//    
+//    return self.usersId;
+//}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    //UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:loginVc];
+    UITabBarController *tabbarVc = [[UITabBarController alloc] init];
+    self.window.rootViewController = tabbarVc;
+    //主页
+    YYMainViewController *yymVc = [[YYMainViewController alloc] init];
+    yymVc.title = @"首页";
+    yymVc.tabBarItem.image = [UIImage imageNamed:@"tabbar_home"];
+    //搜索
+    YYSearchViewController *searchVc = [[YYSearchViewController alloc]init];
+    searchVc.title = @"搜索";
+    searchVc.tabBarItem.image = [UIImage imageNamed:@"tabbar_discover"];
+    //个人
+    YYUsersViewController *userVc = [[YYUsersViewController alloc]init];
+    userVc.title = @"我";
+    userVc.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+    
+
+    [tabbarVc addChildViewController:[[UINavigationController alloc]initWithRootViewController:yymVc] ];
+    [tabbarVc addChildViewController:[[UINavigationController alloc]initWithRootViewController:searchVc]];
+    [tabbarVc addChildViewController:[[UINavigationController alloc]initWithRootViewController:userVc]];
+    [self.window makeKeyAndVisible];
+    
+    [TGModel shareTGsWithArray:[searchModel searchWithWord:@"哈尔滨"]];
+    
     return YES;
 }
 
