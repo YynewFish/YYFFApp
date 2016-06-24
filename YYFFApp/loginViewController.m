@@ -35,8 +35,17 @@
     NSURL *url = [NSURL URLWithString:urlStr];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
-    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-//    NSLog(@"%@",data);
+    NSURLResponse *response = nil;
+    NSError *error = nil;
+    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+    if (error != nil) {
+        NSLog(@"%@", error.localizedDescription);
+    }
+    //    NSLog(@"--%@",data);
+    if (!data) {
+        [MBProgressHUD showError:[NSString stringWithFormat:@"---访问网络失败---"]];
+        return ;
+    }
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
     
 //    NSLog(@"--%@",dict);

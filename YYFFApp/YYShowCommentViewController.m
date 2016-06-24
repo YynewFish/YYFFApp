@@ -26,7 +26,7 @@
     
     if (_tableView == nil) {
         // 表格控件在创建时必须指定样式，只能使用以下实例化方法
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 50, 375, 550) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-100) style:UITableViewStylePlain];
         
         _tableView.dataSource = self;
         _tableView.delegate = self;

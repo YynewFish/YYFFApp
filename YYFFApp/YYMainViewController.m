@@ -42,7 +42,7 @@
 - (UIScrollView *)scrollView
 {
     if (_scrollView == nil) {
-        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(10, 70, 355, 130)];
+        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 70, [UIScreen mainScreen].bounds.size.width, 130)];
         _scrollView.backgroundColor = [UIColor redColor];
         
         [self.view addSubview:_scrollView];
@@ -107,7 +107,7 @@
     
     if (_tableView == nil) {
         // 表格控件在创建时必须指定样式，只能使用以下实例化方法
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 205, 375, 400) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 205, [UIScreen mainScreen].bounds.size.width, 400) style:UITableViewStylePlain];
         
         _tableView.dataSource = self;
         _tableView.delegate = self;

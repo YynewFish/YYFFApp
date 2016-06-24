@@ -59,16 +59,28 @@
 //    self.descText.text = @"测试结果";
     //[self reloadInputViews];
 
+//-(void)textFieldDidEndEditing:(UITextField *)textField{
+//    NSLog(@"%@",_searchText.text);
+//}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     UITabBarController *tabbar = [self.navigationController parentViewController];
     tabbar.tabBar.hidden = NO;
-    
+
 }
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImageView *searchIcon = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"tabbar_discover_selected"]];
+//    searchIcon.image = [UIImage imageNamed:@"tabbar_discover_selected"];
+    searchIcon.frame = CGRectMake(0, 0, 20 , 24);
+    searchIcon.contentMode = UIViewContentModeCenter;
+    _searchText.leftView = searchIcon;
+    
+    _searchText.leftViewMode = UITextFieldViewModeAlways;
+    _searchText.placeholder = @"请输入搜索条件";
     // Do any additional setup after loading the view from its nib.
 }
 
